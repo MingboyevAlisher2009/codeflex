@@ -1,9 +1,12 @@
-import React from 'react'
+import { SignInButton } from "@clerk/nextjs";
+import React from "react";
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
-  )
-}
+    <div>
+      <SignInButton mode="modal"/>
+    </div>
+  );
+};
 
-export default HomePage
+export default HomePage;
