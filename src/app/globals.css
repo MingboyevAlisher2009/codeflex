@@ -44,8 +44,10 @@
 }
 
 :root {
+  /* Base Variables */
   --radius: 0.625rem;
 
+  /* Cyberpunk Theme Colors */
   --cyber-black: #000000;
   --cyber-dark: #0a0c14;
   --cyber-blue-bright: #18cef2;
@@ -54,37 +56,46 @@
   --cyber-blue-glow: #38bdf8;
   --cyber-accent: #0ff4;
 
+  /* Background */
   --background: var(--cyber-dark);
   --foreground: #f2f2f2;
 
+  /* Card and popover elements */
   --card: #111827;
   --card-foreground: #f2f2f2;
   --popover: #111827;
   --popover-foreground: #f2f2f2;
 
+  /* Primary - Main blue */
   --primary: var(--cyber-blue-bright);
   --primary-foreground: var(--cyber-dark);
 
+  /* Secondary - Darker blue */
   --secondary: var(--cyber-blue);
   --secondary-foreground: #ffffff;
 
+  /* Accent - Light blue with glow */
   --accent: var(--cyber-blue-glow);
   --accent-foreground: var(--cyber-dark);
 
+  /* Muted elements */
   --muted: #1e293b;
   --muted-foreground: #94a3b8;
 
+  /* System colors */
   --destructive: #ef4444;
   --border: rgba(24, 206, 242, 0.2);
   --input: rgba(24, 206, 242, 0.2);
   --ring: var(--cyber-blue);
 
+  /* Chart colors - cyberpunk theme */
   --chart-1: var(--cyber-blue-bright);
   --chart-2: #3b82f6;
   --chart-3: var(--cyber-blue);
   --chart-4: #06b6d4;
   --chart-5: #0284c7;
 
+  /* Sidebar colors */
   --sidebar: var(--cyber-dark);
   --sidebar-foreground: #f2f2f2;
   --sidebar-primary: var(--cyber-blue-bright);
@@ -106,26 +117,33 @@
 }
 
 .dark {
+  /* Background */
   --background: var(--cyber-dark);
   --foreground: #f2f2f2;
 
+  /* Card and popover elements */
   --card: #111827;
   --card-foreground: #f2f2f2;
   --popover: #111827;
   --popover-foreground: #f2f2f2;
 
+  /* Primary - Main blue */
   --primary: var(--cyber-blue-bright);
   --primary-foreground: var(--cyber-dark);
 
+  /* Secondary - Darker blue */
   --secondary: var(--cyber-blue);
   --secondary-foreground: #ffffff;
 
+  /* Accent - Light blue with glow */
   --accent: var(--cyber-blue-glow);
   --accent-foreground: var(--cyber-dark);
 
+  /* Muted elements */
   --muted: #1e293b;
   --muted-foreground: #94a3b8;
 
+  /* System colors */
   --destructive: #ef4444;
   --border: rgba(24, 206, 242, 0.2);
   --input: rgba(24, 206, 242, 0.2);
@@ -172,6 +190,7 @@
   }
 }
 
+/* TODO: EXPLAIN THIS BC U PROMISED JUST IN THE FIRST SECTION */
 @keyframes slow-spin {
   from {
     transform: rotate(0deg);
